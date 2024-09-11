@@ -1,7 +1,7 @@
 
-# PL-SQL-UTP-Building3-Cafeteria-Database
+# PL-SQL-UTP-Building3-Cafeteria-Database :pushpin:
 
-* Database modeling
+# :building_construction: Database modeling 
 
 ![image](https://github.com/user-attachments/assets/ec5be842-eb15-4ef8-b9db-ee9beb478f66)
 
@@ -9,20 +9,20 @@
 
 ![image](https://github.com/user-attachments/assets/01febc18-506a-4a68-a55f-db74f5edba4a)
 #
-* Relevant views created with PL/SQL code
+# :mag: Relevant views created with PL/SQL code 
 
 ![image](https://github.com/user-attachments/assets/0144441e-3887-4e4f-8b17-593600491da0)
 
 ![image](https://github.com/user-attachments/assets/90c65cf2-b155-476b-8895-513f4c54af8d)
 
-* Conclusions
+# :memo: Conclusions 
 
 Databases are fundamental tools for companies and organizations, playing a critical role in data storage and management. They are not merely used for storage purposes but are essential for the operation, development, and growth of an organization. This is achieved by transforming data into valuable information that can be leveraged to implement strategies and techniques that drive growth and improvement.
 
 In this project, I explore the amount of data a specific environment, such as a university cafeteria, can handle. As the volume of data grows, techniques can be developed to provide better service to customers and optimize the cafeteria's operations. As previously mentioned, the implementation of a database is not instantaneous. Several key aspects must first be considered to ensure a proper and successful implementation, including defining the mission, objectives, scope, and requirements of the database.
 
 
-**Code:** 
+# :technologist: Code
 
     -- set autocommit on;
     /***********************************************************************/
