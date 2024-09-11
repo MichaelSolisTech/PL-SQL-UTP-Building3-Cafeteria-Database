@@ -588,8 +588,7 @@ In this project, I explore the amount of data a specific environment, such as a 
     v_random := dbms_random.value(0,20);
     exit when v_random > v_total;
     end loop;
-    v_cambio := fn_cambio(v_random,v_total); -- Llamada a la función que
-    calcula el cambio
+    v_cambio := fn_cambio(v_random,v_total); -- Llamada a la función que calcula el cambio
     -- a entregar al cliente una vez pagó
     dbms_output.put_line(chr(10)||'El total a pagar es de: '||v_total||'
     dolares');
