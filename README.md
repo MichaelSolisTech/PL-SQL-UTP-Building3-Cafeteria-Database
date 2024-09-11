@@ -562,8 +562,7 @@ In this project, I explore the amount of data a specific environment, such as a 
     v_cambio alimento.ali_precio%type; -- variable de cambio que se le
     devuelve al cliente
 
-    -- Declaración del cursor para acceder a las columnas de las 3 tablas
-    (alimentos,articulos,pedidos)
+    -- Declaración del cursor para acceder a las columnas de las 3 tablas (alimentos,articulos,pedidos)
     cursor c_cursor is select pe.ped_id,ax.ali_id,ax.ali_nombre,
     ax.ali_precio,aa.cantidad from alimento ax
     inner join articulo aa on ax.ali_id = aa.ali_id
@@ -580,8 +579,7 @@ In this project, I explore the amount of data a specific environment, such as a 
     alimento: '
     ||v_cursor.cantidad||' -> '||v_cursor.ali_nombre);
     -- Variable para calcular el total a pagar
-    v_total := fn_total_a_pagar(v_cursor.ali_precio,v_cursor.cantidad); --
-    Llamada a la función que calcula el total a pagar
+    v_total := fn_total_a_pagar(v_cursor.ali_precio,v_cursor.cantidad); -- Llamada a la función que calcula el total a pagar
     v_random := dbms_random.value(0,20); -- función de número aleatorios
     while (v_random < v_total) loop -- un condicional mientras para obligar a
     v_random tomar un valor mayor al total a pagar.
